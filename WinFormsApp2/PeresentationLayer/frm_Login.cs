@@ -47,6 +47,7 @@ namespace WinFormsApp2.PeresentationLayer
                 DataTable dt = dataAccessLayer.order("select * from users where user_name = '" + txtUserName.Text + "' and user_password='" + txtPassword.Text + "'  ");
                 if (dt.Rows.Count > 0)
                 {
+
                     DAL.vars.loginName = txtUserName.Text;
                     Form1 f = new Form1();
                     this.Hide();

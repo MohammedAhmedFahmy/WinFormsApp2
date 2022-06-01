@@ -34,7 +34,8 @@ namespace WinFormsApp2.Utils
             Success,
             Warning,
             Error,
-            Info
+            Info,
+            Love
         }
 
         private Form_Alert.enmAction action;
@@ -124,6 +125,10 @@ namespace WinFormsApp2.Utils
                 case enmType.Warning:
                     this.pictureBox1.Image = Resources.warning;
                     this.BackColor = Color.DarkOrange;
+                    break;
+                case enmType.Love:
+                    this.pictureBox1.Image = Resources.heart;
+                    this.BackColor = Color.FromArgb(214, 28, 78);
                     break;
             }
 

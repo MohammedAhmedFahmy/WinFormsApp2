@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -25,32 +26,37 @@ namespace WinFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Alert("مرحبا " + DAL.vars.loginName, Form_Alert.enmType.Success);
+
+            Stopwatch watch = Stopwatch.StartNew();
+            this.Alert("تم تسجيل الدخول بنجاح", Form_Alert.enmType.Success);
+            timer1.Start();
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Alert("تم العمل بنجاح", Form_Alert.enmType.Success);
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Alert("لم يتم الأمر بنجاح", Form_Alert.enmType.Error);
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Alert("الأمر يبدو غير جيد", Form_Alert.enmType.Warning);
 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Alert("من الجيد عودتك", Form_Alert.enmType.Info);
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.Alert("نحن سعداء بعودتك", Form_Alert.enmType.Love);
+            timer1.Stop();
         }
     }
 }
