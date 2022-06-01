@@ -15,7 +15,7 @@ namespace WinFormsApp2.DAL
 
         public DataAccessLayer()
         {
-            sqlconnection = new SqlConnection(@"Server=.\SQLEXPRESS; Database=gym; Integrated Security=true");
+            sqlconnection = new SqlConnection(@"Server=.; Database=company; Integrated Security=true");
             SqlCommand cmd = new SqlCommand();
 
 

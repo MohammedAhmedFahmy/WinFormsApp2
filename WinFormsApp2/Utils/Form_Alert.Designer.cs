@@ -40,11 +40,11 @@
             // lblMsg
             // 
             this.lblMsg.AutoSize = true;
-            this.lblMsg.Font = new System.Drawing.Font("Noto Kufi Arabic", 17.8F);
+            this.lblMsg.Font = new System.Drawing.Font("Noto Kufi Arabic", 14.8F);
             this.lblMsg.ForeColor = System.Drawing.Color.White;
-            this.lblMsg.Location = new System.Drawing.Point(64, 9);
+            this.lblMsg.Location = new System.Drawing.Point(64, 14);
             this.lblMsg.Name = "lblMsg";
-            this.lblMsg.Size = new System.Drawing.Size(171, 56);
+            this.lblMsg.Size = new System.Drawing.Size(144, 47);
             this.lblMsg.TabIndex = 4;
             this.lblMsg.Text = "نص الرسالة";
             this.lblMsg.Click += new System.EventHandler(this.lblMsg_Click);
@@ -52,7 +52,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WinFormsApp2.Properties.Resources.icons8_cancel_25px;
-            this.pictureBox2.Location = new System.Drawing.Point(303, 27);
+            this.pictureBox2.Location = new System.Drawing.Point(325, 22);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(26, 30);
             this.pictureBox2.TabIndex = 6;
@@ -77,7 +77,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(347, 74);
+            this.ClientSize = new System.Drawing.Size(363, 74);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblMsg);

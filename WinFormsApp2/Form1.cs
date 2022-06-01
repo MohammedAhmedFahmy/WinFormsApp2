@@ -25,6 +25,7 @@ namespace WinFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.Alert("مرحبا " + DAL.vars.loginName, Form_Alert.enmType.Success);
 
         }
 
