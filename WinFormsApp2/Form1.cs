@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp2.DAL;
 using WinFormsApp2.Utils;
 
 namespace WinFormsApp2
@@ -26,31 +27,22 @@ namespace WinFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            Stopwatch watch = Stopwatch.StartNew();
+            darkMode();
             this.Alert("تم تسجيل الدخول بنجاح", Form_Alert.enmType.Success);
             timer1.Start();
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        void darkMode()
         {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
+            if (vars.darkMode == true)
+            {
+                this.BackColor = Color.FromArgb(17, 45, 78);
+            }
+            if (vars.darkMode == false)
+            {
+                this.BackColor = Color.FromArgb(249, 247, 247);
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)

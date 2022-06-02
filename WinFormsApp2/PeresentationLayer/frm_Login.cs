@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsApp2.DAL;
+using WinFormsApp2.Properties;
 using WinFormsApp2.Utils;
 
 namespace WinFormsApp2.PeresentationLayer
@@ -21,7 +22,7 @@ namespace WinFormsApp2.PeresentationLayer
 
         private void frm_Login_Load(object sender, EventArgs e)
         {
-
+            darkMode();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -72,6 +73,53 @@ namespace WinFormsApp2.PeresentationLayer
             if (e.KeyChar == Convert.ToChar(Keys.Enter)) { 
                 login();
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            vars.darkMode = !vars.darkMode;
+            darkMode();
+        }
+        public void darkMode()
+        {
+            if (vars.darkMode == true)
+            {
+                txtUserName.BackColor = Color.FromArgb(63, 114, 175);
+                txtPassword.BackColor = Color.FromArgb(63, 114, 175);
+                pictureBox1.Image = Resources.lightMoon;
+                this.BackColor = Color.FromArgb(17, 45, 78);
+                label1.ForeColor = Color.FromArgb(249, 247, 247);
+                label2.ForeColor = Color.FromArgb(249, 247, 247);
+                txtUserName.ForeColor = Color.White;
+                txtPassword.ForeColor = Color.White;
+
+
+
+
+            }
+            if (vars.darkMode == false)
+            {
+                
+                pictureBox1.Image = Resources.darkMoon;
+                this.BackColor = Color.FromArgb(249, 247, 247);
+                label1.ForeColor = Color.FromArgb(17, 45, 78);
+                label2.ForeColor = Color.FromArgb(17, 45, 78);
+
+                txtUserName.BackColor = Color.FromArgb(219, 226, 239);
+                txtPassword.BackColor = Color.FromArgb(219, 226, 239);
+                txtUserName.ForeColor = Color.Black;
+                txtPassword.ForeColor = Color.Black;
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            txtUserName.Focus();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            txtPassword.Focus();
         }
     }
 }
