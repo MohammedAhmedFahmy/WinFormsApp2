@@ -136,6 +136,7 @@ namespace WinFormsApp2.Utils
             this.lblMsg.Text = msg;
 
             this.Show();
+            this.TopMost = true;
             this.action = enmAction.start;
             this.timer1.Interval = 1;
             this.timer1.Start();
