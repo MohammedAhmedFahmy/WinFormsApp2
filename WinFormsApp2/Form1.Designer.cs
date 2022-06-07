@@ -81,7 +81,7 @@
             this.bunifuTileButton1.ImageZoom = 65;
             this.bunifuTileButton1.LabelPosition = 48;
             this.bunifuTileButton1.LabelText = "الملاك";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(490, 188);
+            this.bunifuTileButton1.Location = new System.Drawing.Point(490, 191);
             this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(174, 178);
@@ -100,7 +100,7 @@
             this.bunifuTileButton2.ImageZoom = 65;
             this.bunifuTileButton2.LabelPosition = 48;
             this.bunifuTileButton2.LabelText = "العقارات";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(668, 188);
+            this.bunifuTileButton2.Location = new System.Drawing.Point(668, 191);
             this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton2.Name = "bunifuTileButton2";
             this.bunifuTileButton2.Size = new System.Drawing.Size(174, 178);
@@ -119,7 +119,7 @@
             this.bunifuTileButton3.ImageZoom = 65;
             this.bunifuTileButton3.LabelPosition = 48;
             this.bunifuTileButton3.LabelText = "العملاء";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(848, 188);
+            this.bunifuTileButton3.Location = new System.Drawing.Point(848, 191);
             this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton3.Name = "bunifuTileButton3";
             this.bunifuTileButton3.Size = new System.Drawing.Size(174, 178);
@@ -138,7 +138,7 @@
             this.bunifuTileButton4.ImageZoom = 65;
             this.bunifuTileButton4.LabelPosition = 48;
             this.bunifuTileButton4.LabelText = "العقود";
-            this.bunifuTileButton4.Location = new System.Drawing.Point(1026, 188);
+            this.bunifuTileButton4.Location = new System.Drawing.Point(1026, 191);
             this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton4.Name = "bunifuTileButton4";
             this.bunifuTileButton4.Size = new System.Drawing.Size(174, 178);
@@ -157,7 +157,7 @@
             this.bunifuTileButton5.ImageZoom = 65;
             this.bunifuTileButton5.LabelPosition = 48;
             this.bunifuTileButton5.LabelText = "الموظفيين";
-            this.bunifuTileButton5.Location = new System.Drawing.Point(311, 188);
+            this.bunifuTileButton5.Location = new System.Drawing.Point(311, 191);
             this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton5.Name = "bunifuTileButton5";
             this.bunifuTileButton5.Size = new System.Drawing.Size(174, 178);
@@ -176,7 +176,7 @@
             this.bunifuTileButton6.ImageZoom = 65;
             this.bunifuTileButton6.LabelPosition = 48;
             this.bunifuTileButton6.LabelText = "تحصيل الأقساط";
-            this.bunifuTileButton6.Location = new System.Drawing.Point(311, 372);
+            this.bunifuTileButton6.Location = new System.Drawing.Point(311, 375);
             this.bunifuTileButton6.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton6.Name = "bunifuTileButton6";
             this.bunifuTileButton6.Size = new System.Drawing.Size(174, 178);
@@ -195,7 +195,7 @@
             this.bunifuTileButton7.ImageZoom = 65;
             this.bunifuTileButton7.LabelPosition = 48;
             this.bunifuTileButton7.LabelText = "التقارير";
-            this.bunifuTileButton7.Location = new System.Drawing.Point(490, 372);
+            this.bunifuTileButton7.Location = new System.Drawing.Point(490, 375);
             this.bunifuTileButton7.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton7.Name = "bunifuTileButton7";
             this.bunifuTileButton7.Size = new System.Drawing.Size(174, 178);
@@ -214,7 +214,7 @@
             this.bunifuTileButton8.ImageZoom = 65;
             this.bunifuTileButton8.LabelPosition = 48;
             this.bunifuTileButton8.LabelText = "الإدارة المالية";
-            this.bunifuTileButton8.Location = new System.Drawing.Point(848, 372);
+            this.bunifuTileButton8.Location = new System.Drawing.Point(848, 375);
             this.bunifuTileButton8.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton8.Name = "bunifuTileButton8";
             this.bunifuTileButton8.Size = new System.Drawing.Size(174, 178);
@@ -233,7 +233,7 @@
             this.bunifuTileButton9.ImageZoom = 65;
             this.bunifuTileButton9.LabelPosition = 48;
             this.bunifuTileButton9.LabelText = "سداد الملاك";
-            this.bunifuTileButton9.Location = new System.Drawing.Point(668, 372);
+            this.bunifuTileButton9.Location = new System.Drawing.Point(668, 375);
             this.bunifuTileButton9.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton9.Name = "bunifuTileButton9";
             this.bunifuTileButton9.Size = new System.Drawing.Size(174, 178);
@@ -252,7 +252,7 @@
             this.bunifuTileButton10.ImageZoom = 65;
             this.bunifuTileButton10.LabelPosition = 48;
             this.bunifuTileButton10.LabelText = "اعدادات النظام";
-            this.bunifuTileButton10.Location = new System.Drawing.Point(1026, 372);
+            this.bunifuTileButton10.Location = new System.Drawing.Point(1026, 375);
             this.bunifuTileButton10.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuTileButton10.Name = "bunifuTileButton10";
             this.bunifuTileButton10.Size = new System.Drawing.Size(174, 178);
@@ -267,11 +267,10 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.lblDate);
-            this.panel1.Location = new System.Drawing.Point(12, 668);
+            this.panel1.Location = new System.Drawing.Point(12, 715);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1487, 66);
             this.panel1.TabIndex = 10;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // lblLoginTime
             // 
@@ -352,7 +351,7 @@
             // 
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(1428, 591);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(1428, 638);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(71, 71);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -378,7 +377,7 @@
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1511, 738);
+            this.ClientSize = new System.Drawing.Size(1511, 793);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.panel1);

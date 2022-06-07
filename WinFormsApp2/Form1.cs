@@ -74,10 +74,6 @@ namespace WinFormsApp2
             frm_Login frm_ = new frm_Login();
             frm_.Show();
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
     }
 }
