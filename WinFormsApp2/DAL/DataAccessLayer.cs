@@ -11,7 +11,7 @@ namespace WinFormsApp2.DAL
 {
     internal class DataAccessLayer
     {
-        SqlConnection sqlconnection;
+        public SqlConnection sqlconnection;
 
         public DataAccessLayer()
         {

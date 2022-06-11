@@ -57,13 +57,13 @@
             this.label11 = new System.Windows.Forms.Label();
             this.comboNationality = new System.Windows.Forms.ComboBox();
             this.comboCompany = new System.Windows.Forms.ComboBox();
-            this.bunifuCustomTextbox1 = new Bunifu.Framework.BunifuCustomTextbox();
+            this.txtEmpName = new Bunifu.Framework.BunifuCustomTextbox();
             this.txtMobile = new Bunifu.Framework.BunifuCustomTextbox();
             this.txtEmail = new Bunifu.Framework.BunifuCustomTextbox();
             this.txtJob = new Bunifu.Framework.BunifuCustomTextbox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.dateIdentityStart = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.dateIdentityEnd = new Bunifu.Framework.UI.BunifuDatepicker();
             this.btnInsertIdentity = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.picIdenty = new System.Windows.Forms.PictureBox();
             this.dateStartIdentitiy = new Bunifu.Framework.UI.BunifuDatepicker();
@@ -71,8 +71,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.bunifuDatepicker3 = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.bunifuDatepicker4 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.dateWorkEnd = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.dateWorkStart = new Bunifu.Framework.UI.BunifuDatepicker();
             this.btnInsertWorkCard = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.picWordCard = new System.Windows.Forms.PictureBox();
             this.dateWorkCardStart = new Bunifu.Framework.UI.BunifuDatepicker();
@@ -80,8 +80,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.bunifuDatepicker5 = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.bunifuDatepicker6 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.passEndDate = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.passStartDate = new Bunifu.Framework.UI.BunifuDatepicker();
             this.btnInsertPassport = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.picPassport = new System.Windows.Forms.PictureBox();
             this.datePassprtStart = new Bunifu.Framework.UI.BunifuDatepicker();
@@ -95,6 +95,14 @@
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnDarlMode = new System.Windows.Forms.PictureBox();
             this.bunifuButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.txtIdentityNumber = new Bunifu.Framework.BunifuCustomTextbox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txtWorkCardNumber = new Bunifu.Framework.BunifuCustomTextbox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtPassportNumber = new Bunifu.Framework.BunifuCustomTextbox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtSalary = new Bunifu.Framework.BunifuCustomTextbox();
+            this.label19 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIdenty)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -162,7 +170,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(65, 465);
+            this.label10.Location = new System.Drawing.Point(65, 516);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(170, 43);
             this.label10.TabIndex = 9;
@@ -220,15 +228,16 @@
             this.comboCompany.Name = "comboCompany";
             this.comboCompany.Size = new System.Drawing.Size(300, 46);
             this.comboCompany.TabIndex = 5;
+            this.comboCompany.SelectedIndexChanged += new System.EventHandler(this.comboCompany_SelectedIndexChanged);
             // 
-            // bunifuCustomTextbox1
+            // txtEmpName
             // 
-            this.bunifuCustomTextbox1.BorderColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomTextbox1.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
-            this.bunifuCustomTextbox1.Location = new System.Drawing.Point(259, 137);
-            this.bunifuCustomTextbox1.Name = "bunifuCustomTextbox1";
-            this.bunifuCustomTextbox1.Size = new System.Drawing.Size(300, 45);
-            this.bunifuCustomTextbox1.TabIndex = 0;
+            this.txtEmpName.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtEmpName.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
+            this.txtEmpName.Location = new System.Drawing.Point(259, 137);
+            this.txtEmpName.Name = "txtEmpName";
+            this.txtEmpName.Size = new System.Drawing.Size(300, 45);
+            this.txtEmpName.TabIndex = 0;
             // 
             // txtMobile
             // 
@@ -262,8 +271,10 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.bunifuDatepicker1);
-            this.groupBox1.Controls.Add(this.bunifuDatepicker2);
+            this.groupBox1.Controls.Add(this.txtIdentityNumber);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.dateIdentityStart);
+            this.groupBox1.Controls.Add(this.dateIdentityEnd);
             this.groupBox1.Controls.Add(this.btnInsertIdentity);
             this.groupBox1.Controls.Add(this.picIdenty);
             this.groupBox1.Controls.Add(this.dateStartIdentitiy);
@@ -277,35 +288,35 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "بطاقة التعريف";
             // 
-            // bunifuDatepicker1
+            // dateIdentityStart
             // 
-            this.bunifuDatepicker1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuDatepicker1.BorderRadius = 0;
-            this.bunifuDatepicker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.bunifuDatepicker1.FormatCustom = null;
-            this.bunifuDatepicker1.Location = new System.Drawing.Point(333, 61);
-            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
-            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
-            this.bunifuDatepicker1.Size = new System.Drawing.Size(299, 44);
-            this.bunifuDatepicker1.TabIndex = 36;
-            this.bunifuDatepicker1.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            this.dateIdentityStart.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateIdentityStart.BorderRadius = 0;
+            this.dateIdentityStart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateIdentityStart.ForeColor = System.Drawing.Color.White;
+            this.dateIdentityStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateIdentityStart.FormatCustom = null;
+            this.dateIdentityStart.Location = new System.Drawing.Point(334, 110);
+            this.dateIdentityStart.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
+            this.dateIdentityStart.Name = "dateIdentityStart";
+            this.dateIdentityStart.Size = new System.Drawing.Size(300, 45);
+            this.dateIdentityStart.TabIndex = 36;
+            this.dateIdentityStart.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
             // 
-            // bunifuDatepicker2
+            // dateIdentityEnd
             // 
-            this.bunifuDatepicker2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuDatepicker2.BorderRadius = 0;
-            this.bunifuDatepicker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker2.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.bunifuDatepicker2.FormatCustom = null;
-            this.bunifuDatepicker2.Location = new System.Drawing.Point(333, 117);
-            this.bunifuDatepicker2.Margin = new System.Windows.Forms.Padding(17, 30, 17, 30);
-            this.bunifuDatepicker2.Name = "bunifuDatepicker2";
-            this.bunifuDatepicker2.Size = new System.Drawing.Size(299, 44);
-            this.bunifuDatepicker2.TabIndex = 35;
-            this.bunifuDatepicker2.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            this.dateIdentityEnd.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateIdentityEnd.BorderRadius = 0;
+            this.dateIdentityEnd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateIdentityEnd.ForeColor = System.Drawing.Color.White;
+            this.dateIdentityEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateIdentityEnd.FormatCustom = null;
+            this.dateIdentityEnd.Location = new System.Drawing.Point(334, 167);
+            this.dateIdentityEnd.Margin = new System.Windows.Forms.Padding(17, 30, 17, 30);
+            this.dateIdentityEnd.Name = "dateIdentityEnd";
+            this.dateIdentityEnd.Size = new System.Drawing.Size(300, 45);
+            this.dateIdentityEnd.TabIndex = 35;
+            this.dateIdentityEnd.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
             // 
             // btnInsertIdentity
             // 
@@ -413,7 +424,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(634, 116);
+            this.label4.Location = new System.Drawing.Point(643, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 43);
             this.label4.TabIndex = 10;
@@ -422,7 +433,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(643, 61);
+            this.label3.Location = new System.Drawing.Point(652, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(146, 43);
             this.label3.TabIndex = 9;
@@ -430,8 +441,10 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.bunifuDatepicker3);
-            this.groupBox2.Controls.Add(this.bunifuDatepicker4);
+            this.groupBox2.Controls.Add(this.txtWorkCardNumber);
+            this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Controls.Add(this.dateWorkEnd);
+            this.groupBox2.Controls.Add(this.dateWorkStart);
             this.groupBox2.Controls.Add(this.btnInsertWorkCard);
             this.groupBox2.Controls.Add(this.picWordCard);
             this.groupBox2.Controls.Add(this.dateWorkCardStart);
@@ -445,35 +458,35 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "تصريح العمل";
             // 
-            // bunifuDatepicker3
+            // dateWorkEnd
             // 
-            this.bunifuDatepicker3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuDatepicker3.BorderRadius = 0;
-            this.bunifuDatepicker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker3.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.bunifuDatepicker3.FormatCustom = null;
-            this.bunifuDatepicker3.Location = new System.Drawing.Point(333, 115);
-            this.bunifuDatepicker3.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
-            this.bunifuDatepicker3.Name = "bunifuDatepicker3";
-            this.bunifuDatepicker3.Size = new System.Drawing.Size(299, 44);
-            this.bunifuDatepicker3.TabIndex = 37;
-            this.bunifuDatepicker3.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            this.dateWorkEnd.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateWorkEnd.BorderRadius = 0;
+            this.dateWorkEnd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateWorkEnd.ForeColor = System.Drawing.Color.White;
+            this.dateWorkEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateWorkEnd.FormatCustom = null;
+            this.dateWorkEnd.Location = new System.Drawing.Point(333, 167);
+            this.dateWorkEnd.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
+            this.dateWorkEnd.Name = "dateWorkEnd";
+            this.dateWorkEnd.Size = new System.Drawing.Size(299, 44);
+            this.dateWorkEnd.TabIndex = 37;
+            this.dateWorkEnd.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
             // 
-            // bunifuDatepicker4
+            // dateWorkStart
             // 
-            this.bunifuDatepicker4.BackColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuDatepicker4.BorderRadius = 0;
-            this.bunifuDatepicker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker4.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.bunifuDatepicker4.FormatCustom = null;
-            this.bunifuDatepicker4.Location = new System.Drawing.Point(333, 60);
-            this.bunifuDatepicker4.Margin = new System.Windows.Forms.Padding(17, 30, 17, 30);
-            this.bunifuDatepicker4.Name = "bunifuDatepicker4";
-            this.bunifuDatepicker4.Size = new System.Drawing.Size(299, 44);
-            this.bunifuDatepicker4.TabIndex = 36;
-            this.bunifuDatepicker4.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            this.dateWorkStart.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateWorkStart.BorderRadius = 0;
+            this.dateWorkStart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateWorkStart.ForeColor = System.Drawing.Color.White;
+            this.dateWorkStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateWorkStart.FormatCustom = null;
+            this.dateWorkStart.Location = new System.Drawing.Point(333, 112);
+            this.dateWorkStart.Margin = new System.Windows.Forms.Padding(17, 30, 17, 30);
+            this.dateWorkStart.Name = "dateWorkStart";
+            this.dateWorkStart.Size = new System.Drawing.Size(299, 44);
+            this.dateWorkStart.TabIndex = 36;
+            this.dateWorkStart.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
             // 
             // btnInsertWorkCard
             // 
@@ -581,7 +594,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(634, 116);
+            this.label5.Location = new System.Drawing.Point(643, 168);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(155, 43);
             this.label5.TabIndex = 10;
@@ -590,7 +603,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(643, 61);
+            this.label12.Location = new System.Drawing.Point(652, 113);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(146, 43);
             this.label12.TabIndex = 9;
@@ -598,8 +611,10 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.bunifuDatepicker5);
-            this.groupBox3.Controls.Add(this.bunifuDatepicker6);
+            this.groupBox3.Controls.Add(this.txtPassportNumber);
+            this.groupBox3.Controls.Add(this.label18);
+            this.groupBox3.Controls.Add(this.passEndDate);
+            this.groupBox3.Controls.Add(this.passStartDate);
             this.groupBox3.Controls.Add(this.btnInsertPassport);
             this.groupBox3.Controls.Add(this.picPassport);
             this.groupBox3.Controls.Add(this.datePassprtStart);
@@ -608,40 +623,40 @@
             this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Location = new System.Drawing.Point(565, 510);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(823, 217);
+            this.groupBox3.Size = new System.Drawing.Size(823, 260);
             this.groupBox3.TabIndex = 34;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "جواز السفر";
             // 
-            // bunifuDatepicker5
+            // passEndDate
             // 
-            this.bunifuDatepicker5.BackColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuDatepicker5.BorderRadius = 0;
-            this.bunifuDatepicker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker5.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker5.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.bunifuDatepicker5.FormatCustom = null;
-            this.bunifuDatepicker5.Location = new System.Drawing.Point(333, 115);
-            this.bunifuDatepicker5.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
-            this.bunifuDatepicker5.Name = "bunifuDatepicker5";
-            this.bunifuDatepicker5.Size = new System.Drawing.Size(299, 44);
-            this.bunifuDatepicker5.TabIndex = 37;
-            this.bunifuDatepicker5.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            this.passEndDate.BackColor = System.Drawing.Color.DodgerBlue;
+            this.passEndDate.BorderRadius = 0;
+            this.passEndDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.passEndDate.ForeColor = System.Drawing.Color.White;
+            this.passEndDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.passEndDate.FormatCustom = null;
+            this.passEndDate.Location = new System.Drawing.Point(334, 167);
+            this.passEndDate.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
+            this.passEndDate.Name = "passEndDate";
+            this.passEndDate.Size = new System.Drawing.Size(300, 45);
+            this.passEndDate.TabIndex = 37;
+            this.passEndDate.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
             // 
-            // bunifuDatepicker6
+            // passStartDate
             // 
-            this.bunifuDatepicker6.BackColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuDatepicker6.BorderRadius = 0;
-            this.bunifuDatepicker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker6.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker6.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.bunifuDatepicker6.FormatCustom = null;
-            this.bunifuDatepicker6.Location = new System.Drawing.Point(333, 60);
-            this.bunifuDatepicker6.Margin = new System.Windows.Forms.Padding(17, 30, 17, 30);
-            this.bunifuDatepicker6.Name = "bunifuDatepicker6";
-            this.bunifuDatepicker6.Size = new System.Drawing.Size(299, 44);
-            this.bunifuDatepicker6.TabIndex = 36;
-            this.bunifuDatepicker6.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            this.passStartDate.BackColor = System.Drawing.Color.DodgerBlue;
+            this.passStartDate.BorderRadius = 0;
+            this.passStartDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.passStartDate.ForeColor = System.Drawing.Color.White;
+            this.passStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.passStartDate.FormatCustom = null;
+            this.passStartDate.Location = new System.Drawing.Point(334, 113);
+            this.passStartDate.Margin = new System.Windows.Forms.Padding(17, 30, 17, 30);
+            this.passStartDate.Name = "passStartDate";
+            this.passStartDate.Size = new System.Drawing.Size(300, 45);
+            this.passStartDate.TabIndex = 36;
+            this.passStartDate.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
             // 
             // btnInsertPassport
             // 
@@ -749,7 +764,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(634, 116);
+            this.label13.Location = new System.Drawing.Point(643, 166);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(155, 43);
             this.label13.TabIndex = 10;
@@ -758,7 +773,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(643, 61);
+            this.label14.Location = new System.Drawing.Point(652, 111);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(146, 43);
             this.label14.TabIndex = 9;
@@ -820,7 +835,7 @@
             this.btnInsertEmpImg.IdleIconLeftImage = null;
             this.btnInsertEmpImg.IdleIconRightImage = null;
             this.btnInsertEmpImg.IndicateFocus = false;
-            this.btnInsertEmpImg.Location = new System.Drawing.Point(259, 725);
+            this.btnInsertEmpImg.Location = new System.Drawing.Point(259, 776);
             this.btnInsertEmpImg.Name = "btnInsertEmpImg";
             stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties7.BorderRadius = 3;
@@ -851,7 +866,7 @@
             // 
             this.picEmpImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picEmpImage.Image = global::WinFormsApp2.Properties.Resources._912214;
-            this.picEmpImage.Location = new System.Drawing.Point(259, 469);
+            this.picEmpImage.Location = new System.Drawing.Point(259, 520);
             this.picEmpImage.Name = "picEmpImage";
             this.picEmpImage.Size = new System.Drawing.Size(300, 250);
             this.picEmpImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -895,7 +910,7 @@
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(994, 733);
+            this.bunifuButton1.Location = new System.Drawing.Point(994, 776);
             this.bunifuButton1.Name = "bunifuButton1";
             stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties9.BorderRadius = 3;
@@ -920,6 +935,7 @@
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextMarginLeft = 0;
             this.bunifuButton1.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton1.Click += new System.EventHandler(this.bunifuButton1_Click_1);
             // 
             // btnDarlMode
             // 
@@ -972,7 +988,7 @@
             this.bunifuButton2.IdleIconLeftImage = null;
             this.bunifuButton2.IdleIconRightImage = null;
             this.bunifuButton2.IndicateFocus = false;
-            this.bunifuButton2.Location = new System.Drawing.Point(1217, 733);
+            this.bunifuButton2.Location = new System.Drawing.Point(1217, 776);
             this.bunifuButton2.Name = "bunifuButton2";
             stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties11.BorderRadius = 3;
@@ -999,11 +1015,86 @@
             this.bunifuButton2.UseDefaultRadiusAndThickness = true;
             this.bunifuButton2.Click += new System.EventHandler(this.bunifuButton2_Click);
             // 
+            // txtIdentityNumber
+            // 
+            this.txtIdentityNumber.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtIdentityNumber.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
+            this.txtIdentityNumber.Location = new System.Drawing.Point(333, 50);
+            this.txtIdentityNumber.Name = "txtIdentityNumber";
+            this.txtIdentityNumber.Size = new System.Drawing.Size(300, 45);
+            this.txtIdentityNumber.TabIndex = 37;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(652, 53);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(146, 43);
+            this.label16.TabIndex = 38;
+            this.label16.Text = "رقم البطاقة:";
+            // 
+            // txtWorkCardNumber
+            // 
+            this.txtWorkCardNumber.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtWorkCardNumber.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
+            this.txtWorkCardNumber.Location = new System.Drawing.Point(332, 50);
+            this.txtWorkCardNumber.Name = "txtWorkCardNumber";
+            this.txtWorkCardNumber.Size = new System.Drawing.Size(300, 45);
+            this.txtWorkCardNumber.TabIndex = 39;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(654, 52);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(144, 43);
+            this.label17.TabIndex = 40;
+            this.label17.Text = "رقم التصريح:";
+            // 
+            // txtPassportNumber
+            // 
+            this.txtPassportNumber.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtPassportNumber.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
+            this.txtPassportNumber.Location = new System.Drawing.Point(332, 50);
+            this.txtPassportNumber.Name = "txtPassportNumber";
+            this.txtPassportNumber.Size = new System.Drawing.Size(300, 45);
+            this.txtPassportNumber.TabIndex = 39;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(673, 50);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(125, 43);
+            this.label18.TabIndex = 40;
+            this.label18.Text = "رقم الجواز:";
+            // 
+            // txtSalary
+            // 
+            this.txtSalary.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtSalary.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
+            this.txtSalary.Location = new System.Drawing.Point(259, 469);
+            this.txtSalary.Name = "txtSalary";
+            this.txtSalary.Size = new System.Drawing.Size(300, 45);
+            this.txtSalary.TabIndex = 40;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(65, 477);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(91, 43);
+            this.label19.TabIndex = 41;
+            this.label19.Text = "المرتب:";
+            // 
             // frmAddEmp
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1441, 789);
+            this.ClientSize = new System.Drawing.Size(1441, 872);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.txtSalary);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.bunifuButton2);
             this.Controls.Add(this.btnDarlMode);
             this.Controls.Add(this.bunifuButton1);
@@ -1012,12 +1103,11 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnInsertEmpImg);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.picEmpImage);
             this.Controls.Add(this.txtJob);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtMobile);
-            this.Controls.Add(this.bunifuCustomTextbox1);
+            this.Controls.Add(this.txtEmpName);
             this.Controls.Add(this.comboCompany);
             this.Controls.Add(this.comboNationality);
             this.Controls.Add(this.label1);
@@ -1065,7 +1155,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox comboCompany;
         private System.Windows.Forms.ComboBox comboNationality;
-        private Bunifu.Framework.BunifuCustomTextbox bunifuCustomTextbox1;
+        private Bunifu.Framework.BunifuCustomTextbox txtEmpName;
         private Bunifu.Framework.BunifuCustomTextbox txtMobile;
         private Bunifu.Framework.BunifuCustomTextbox txtEmail;
         private Bunifu.Framework.BunifuCustomTextbox txtJob;
@@ -1094,14 +1184,22 @@
         private System.Windows.Forms.Label label14;
         private Bunifu.Framework.BunifuCustomTextbox txtEmpCode;
         private System.Windows.Forms.Label label15;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker2;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker3;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker4;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker5;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker6;
+        private Bunifu.Framework.UI.BunifuDatepicker dateIdentityEnd;
+        private Bunifu.Framework.UI.BunifuDatepicker dateWorkEnd;
+        private Bunifu.Framework.UI.BunifuDatepicker dateWorkStart;
+        private Bunifu.Framework.UI.BunifuDatepicker passEndDate;
+        private Bunifu.Framework.UI.BunifuDatepicker passStartDate;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
+        private Bunifu.Framework.UI.BunifuDatepicker dateIdentityStart;
         private System.Windows.Forms.PictureBox btnDarlMode;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
+        private Bunifu.Framework.BunifuCustomTextbox txtIdentityNumber;
+        private System.Windows.Forms.Label label16;
+        private Bunifu.Framework.BunifuCustomTextbox txtWorkCardNumber;
+        private System.Windows.Forms.Label label17;
+        private Bunifu.Framework.BunifuCustomTextbox txtPassportNumber;
+        private System.Windows.Forms.Label label18;
+        private Bunifu.Framework.BunifuCustomTextbox txtSalary;
+        private System.Windows.Forms.Label label19;
     }
 }
