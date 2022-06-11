@@ -63,6 +63,16 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _912214 {
+            get {
+                object obj = ResourceManager.GetObject("912214", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap darkMoon {
             get {
                 object obj = ResourceManager.GetObject("darkMoon", resourceCulture);
@@ -136,6 +146,16 @@ namespace WinFormsApp2.Properties {
         internal static System.Drawing.Bitmap warning {
             get {
                 object obj = ResourceManager.GetObject("warning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_office_document_icon {
+            get {
+                object obj = ResourceManager.GetObject("x-office-document-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

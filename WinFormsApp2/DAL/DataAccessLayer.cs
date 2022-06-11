@@ -67,7 +67,7 @@ namespace WinFormsApp2.DAL
             cmd.ExecuteNonQuery();
 
         }
-        public DataTable order(string query)
+        public DataTable orderDataTable(string query)
         {
             SqlDataAdapter d = new SqlDataAdapter(query, sqlconnection);
             DataTable dt = new DataTable();
@@ -87,7 +87,7 @@ namespace WinFormsApp2.DAL
             int max = 0;
             DAL.DataAccessLayer dataAccesLayer = new DAL.DataAccessLayer();
             dataAccesLayer.Open();
-            DataTable d = dataAccesLayer.order("select * from " + tblName + "");
+            DataTable d = dataAccesLayer.orderDataTable("select * from " + tblName + "");
             if (d.Rows.Count > 0)
             {
                 for (int i = 0; i < d.Rows.Count; i++)

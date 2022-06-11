@@ -45,14 +45,24 @@ namespace WinFormsApp2.PeresentationLayer
             if (txtUserName.Text.Trim() != "" && txtPassword.Text != "")
             {
 
-                DataTable dt = dataAccessLayer.order("select * from users where user_name = '" + txtUserName.Text + "' and user_password='" + txtPassword.Text + "'  ");
+                DataTable dt = dataAccessLayer.orderDataTable("select * from Users where user_name = '" + txtUserName.Text + "' and user_password='" + txtPassword.Text + "'  ");
                 if (dt.Rows.Count > 0)
                 {
 
                     DAL.vars.loginName = txtUserName.Text;
-                    Form1 f = new Form1();
+                    DAL.vars.loginSort = dt.Rows[0][3].ToString();
+                    if(DAL.vars.loginSort == "admin")
+                    {
+                        Admin_Main admin_Main = new Admin_Main();
+                        admin_Main.Show();
+                    }
+                    else
+                    {
+                        Form1 f = new Form1();
+                        f.ShowDialog();
+
+                    }
                     this.Hide();
-                    f.ShowDialog();
 
                 }
                 else

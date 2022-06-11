@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsApp2.PeresentationLayer;
+using WinFormsApp2.PeresentationLayer.Emp;
 
 namespace WinFormsApp2
 {
@@ -17,7 +18,7 @@ namespace WinFormsApp2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Login());
+            Application.Run(new frmAddEmp());
         }
     }
 }

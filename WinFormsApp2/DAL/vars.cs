@@ -9,6 +9,7 @@ namespace WinFormsApp2.DAL
     internal class vars
     {
         public static string loginName = "";
+        public static string loginSort = "";
         public static bool darkMode= false;
     }
 }
