@@ -18,7 +18,7 @@ namespace WinFormsApp2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAddEmp());
+            Application.Run(new Admin_Main());
         }
     }
 }

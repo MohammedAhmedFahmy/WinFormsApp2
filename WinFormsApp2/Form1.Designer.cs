@@ -162,6 +162,7 @@
             this.bunifuTileButton5.Name = "bunifuTileButton5";
             this.bunifuTileButton5.Size = new System.Drawing.Size(174, 178);
             this.bunifuTileButton5.TabIndex = 4;
+            this.bunifuTileButton5.Click += new System.EventHandler(this.bunifuTileButton5_Click);
             // 
             // bunifuTileButton6
             // 

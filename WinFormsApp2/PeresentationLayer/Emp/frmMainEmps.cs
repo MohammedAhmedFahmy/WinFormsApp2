@@ -8,20 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsApp2.DAL;
-using WinFormsApp2.PeresentationLayer.Emp;
 
-namespace WinFormsApp2.PeresentationLayer
+namespace WinFormsApp2.PeresentationLayer.Emp
 {
-    public partial class Admin_Main : Form
+    public partial class frmMainEmps : Form
     {
-        public Admin_Main()
-        {
-            InitializeComponent();
-        }
-
-        private void Admin_Main_Load(object sender, EventArgs e)
+        public frmMainEmps()
         {
             darkMode();
+            InitializeComponent();
         }
         void darkMode()
         {
@@ -37,10 +32,17 @@ namespace WinFormsApp2.PeresentationLayer
             }
         }
 
-        private void bunifuTileButton5_Click(object sender, EventArgs e)
+        private void bunifuTileButton1_Click(object sender, EventArgs e)
         {
-            frmMainEmps f = new frmMainEmps();
-            f.ShowDialog();
+            frmAddEmp frmAddEmp = new frmAddEmp();
+            frmAddEmp.ShowDialog();
+            darkMode();
+        }
+
+        private void bunifuTileButton2_Click(object sender, EventArgs e)
+        {
+            frmEmpsList frmEmpsList = new frmEmpsList();
+            frmEmpsList.ShowDialog();
             darkMode();
         }
     }

@@ -110,8 +110,8 @@ namespace WinFormsApp2.PeresentationLayer.Emp
                     x.Text = "";
                 }
             }
-            comboCompany.SelectedItem = null;
-            comboNationality.SelectedItem = null;
+            comboCompany.SelectedItem = "";
+            comboNationality.SelectedItem = "";
             txtIdentityNumber.Text = "";
             txtPassportNumber.Text = "";
             txtWorkCardNumber.Text = "";
@@ -322,4 +322,4 @@ namespace WinFormsApp2.PeresentationLayer.Emp
             customSelectedValue = (comboCompany.SelectedItem as ComboboxItem)!.Value!.ToString();
         }
     }
-}
+}   

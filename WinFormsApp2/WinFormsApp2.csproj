@@ -16,6 +16,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>D:\Projects\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>D:\Projects\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
       <HintPath>D:\Projects\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
     </Reference>
