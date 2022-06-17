@@ -30,24 +30,24 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddEmp));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -67,24 +67,19 @@
             this.label16 = new System.Windows.Forms.Label();
             this.dateIdentityStart = new Bunifu.Framework.UI.BunifuDatepicker();
             this.dateIdentityEnd = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.btnInsertIdentity = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.picIdenty = new System.Windows.Forms.PictureBox();
             this.dateStartIdentitiy = new Bunifu.Framework.UI.BunifuDatepicker();
             this.dateEndIdentity = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtWorkCardNumber = new Bunifu.Framework.BunifuCustomTextbox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.dateWorkEnd = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.dateWorkStart = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.dateWorkCardStart = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.dateWorkCardEnd = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtPassportNumber = new Bunifu.Framework.BunifuCustomTextbox();
             this.label18 = new System.Windows.Forms.Label();
             this.passEndDate = new Bunifu.Framework.UI.BunifuDatepicker();
             this.passStartDate = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.btnInsertPassport = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.picPassport = new System.Windows.Forms.PictureBox();
             this.datePassprtStart = new Bunifu.Framework.UI.BunifuDatepicker();
             this.datePassportEnd = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label13 = new System.Windows.Forms.Label();
@@ -94,25 +89,36 @@
             this.txtSalary = new Bunifu.Framework.BunifuCustomTextbox();
             this.label19 = new System.Windows.Forms.Label();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.btnInsertIdentity = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.picIdenty = new System.Windows.Forms.PictureBox();
             this.bunifuButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnDarlMode = new System.Windows.Forms.PictureBox();
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.btnInsertPassport = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.picPassport = new System.Windows.Forms.PictureBox();
-            this.btnInsertWorkCard = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.picWordCard = new System.Windows.Forms.PictureBox();
             this.btnInsertEmpImg = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.picEmpImage = new System.Windows.Forms.PictureBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dateWorkCardEnd = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.dateWorkCardStart = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.picWordCard = new System.Windows.Forms.PictureBox();
+            this.btnInsertWorkCard = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.dateWorkStart = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.dateWorkEnd = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtWorkCardNumber = new Bunifu.Framework.BunifuCustomTextbox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIdenty)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnDarlMode)).BeginInit();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPassport)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picWordCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDarlMode)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEmpImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWordCard)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -274,6 +280,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.dateTimePicker2);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.txtIdentityNumber);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.dateIdentityStart);
@@ -339,6 +347,81 @@
             this.dateIdentityEnd.TabIndex = 35;
             this.dateIdentityEnd.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
             // 
+            // btnInsertIdentity
+            // 
+            this.btnInsertIdentity.AllowToggling = false;
+            this.btnInsertIdentity.AnimationSpeed = 200;
+            this.btnInsertIdentity.AutoGenerateColors = false;
+            this.btnInsertIdentity.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertIdentity.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.btnInsertIdentity.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInsertIdentity.BackgroundImage")));
+            this.btnInsertIdentity.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnInsertIdentity.ButtonText = "إدراج";
+            this.btnInsertIdentity.ButtonTextMarginLeft = 0;
+            this.btnInsertIdentity.ColorContrastOnClick = 45;
+            this.btnInsertIdentity.ColorContrastOnHover = 45;
+            this.btnInsertIdentity.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.btnInsertIdentity.CustomizableEdges = borderEdges7;
+            this.btnInsertIdentity.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnInsertIdentity.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnInsertIdentity.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnInsertIdentity.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnInsertIdentity.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnInsertIdentity.Font = new System.Drawing.Font("Noto Kufi Arabic", 10.8F);
+            this.btnInsertIdentity.ForeColor = System.Drawing.Color.White;
+            this.btnInsertIdentity.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertIdentity.IconMarginLeft = 11;
+            this.btnInsertIdentity.IconPadding = 10;
+            this.btnInsertIdentity.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertIdentity.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnInsertIdentity.IdleBorderRadius = 3;
+            this.btnInsertIdentity.IdleBorderThickness = 1;
+            this.btnInsertIdentity.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.btnInsertIdentity.IdleIconLeftImage = null;
+            this.btnInsertIdentity.IdleIconRightImage = null;
+            this.btnInsertIdentity.IndicateFocus = false;
+            this.btnInsertIdentity.Location = new System.Drawing.Point(21, 178);
+            this.btnInsertIdentity.Name = "btnInsertIdentity";
+            stateProperties13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties13.BorderRadius = 3;
+            stateProperties13.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties13.BorderThickness = 1;
+            stateProperties13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties13.ForeColor = System.Drawing.Color.White;
+            stateProperties13.IconLeftImage = null;
+            stateProperties13.IconRightImage = null;
+            this.btnInsertIdentity.onHoverState = stateProperties13;
+            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties14.BorderRadius = 3;
+            stateProperties14.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties14.BorderThickness = 1;
+            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties14.ForeColor = System.Drawing.Color.White;
+            stateProperties14.IconLeftImage = null;
+            stateProperties14.IconRightImage = null;
+            this.btnInsertIdentity.OnPressedState = stateProperties14;
+            this.btnInsertIdentity.Size = new System.Drawing.Size(150, 33);
+            this.btnInsertIdentity.TabIndex = 33;
+            this.btnInsertIdentity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnInsertIdentity.TextMarginLeft = 0;
+            this.btnInsertIdentity.UseDefaultRadiusAndThickness = true;
+            this.btnInsertIdentity.Click += new System.EventHandler(this.btnInsertIdentity_Click);
+            // 
+            // picIdenty
+            // 
+            this.picIdenty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picIdenty.Image = global::WinFormsApp2.Properties.Resources.x_office_document_icon;
+            this.picIdenty.Location = new System.Drawing.Point(21, 28);
+            this.picIdenty.Name = "picIdenty";
+            this.picIdenty.Size = new System.Drawing.Size(150, 150);
+            this.picIdenty.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picIdenty.TabIndex = 29;
+            this.picIdenty.TabStop = false;
+            // 
             // dateStartIdentitiy
             // 
             this.dateStartIdentitiy.BackColor = System.Drawing.Color.DodgerBlue;
@@ -385,121 +468,10 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "تاريخ البداية:";
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.txtWorkCardNumber);
-            this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.Add(this.dateWorkEnd);
-            this.groupBox2.Controls.Add(this.dateWorkStart);
-            this.groupBox2.Controls.Add(this.btnInsertWorkCard);
-            this.groupBox2.Controls.Add(this.picWordCard);
-            this.groupBox2.Controls.Add(this.dateWorkCardStart);
-            this.groupBox2.Controls.Add(this.dateWorkCardEnd);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Location = new System.Drawing.Point(565, 287);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(823, 217);
-            this.groupBox2.TabIndex = 33;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "تصريح العمل";
-            // 
-            // txtWorkCardNumber
-            // 
-            this.txtWorkCardNumber.BorderColor = System.Drawing.Color.SeaGreen;
-            this.txtWorkCardNumber.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
-            this.txtWorkCardNumber.Location = new System.Drawing.Point(332, 50);
-            this.txtWorkCardNumber.Name = "txtWorkCardNumber";
-            this.txtWorkCardNumber.Size = new System.Drawing.Size(300, 45);
-            this.txtWorkCardNumber.TabIndex = 39;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(654, 52);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(144, 43);
-            this.label17.TabIndex = 40;
-            this.label17.Text = "رقم التصريح:";
-            // 
-            // dateWorkEnd
-            // 
-            this.dateWorkEnd.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dateWorkEnd.BorderRadius = 0;
-            this.dateWorkEnd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dateWorkEnd.ForeColor = System.Drawing.Color.White;
-            this.dateWorkEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateWorkEnd.FormatCustom = null;
-            this.dateWorkEnd.Location = new System.Drawing.Point(708, 449);
-            this.dateWorkEnd.Margin = new System.Windows.Forms.Padding(76, 218, 76, 218);
-            this.dateWorkEnd.Name = "dateWorkEnd";
-            this.dateWorkEnd.Size = new System.Drawing.Size(633, 115);
-            this.dateWorkEnd.TabIndex = 37;
-            this.dateWorkEnd.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
-            // 
-            // dateWorkStart
-            // 
-            this.dateWorkStart.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dateWorkStart.BorderRadius = 0;
-            this.dateWorkStart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dateWorkStart.ForeColor = System.Drawing.Color.White;
-            this.dateWorkStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateWorkStart.FormatCustom = null;
-            this.dateWorkStart.Location = new System.Drawing.Point(708, 301);
-            this.dateWorkStart.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
-            this.dateWorkStart.Name = "dateWorkStart";
-            this.dateWorkStart.Size = new System.Drawing.Size(633, 115);
-            this.dateWorkStart.TabIndex = 36;
-            this.dateWorkStart.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
-            // 
-            // dateWorkCardStart
-            // 
-            this.dateWorkCardStart.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dateWorkCardStart.BorderRadius = 0;
-            this.dateWorkCardStart.ForeColor = System.Drawing.Color.White;
-            this.dateWorkCardStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateWorkCardStart.FormatCustom = null;
-            this.dateWorkCardStart.Location = new System.Drawing.Point(1874, 419);
-            this.dateWorkCardStart.Margin = new System.Windows.Forms.Padding(162, 586, 162, 586);
-            this.dateWorkCardStart.Name = "dateWorkCardStart";
-            this.dateWorkCardStart.Size = new System.Drawing.Size(939, 333);
-            this.dateWorkCardStart.TabIndex = 12;
-            this.dateWorkCardStart.Value = new System.DateTime(2022, 6, 10, 20, 27, 17, 836);
-            // 
-            // dateWorkCardEnd
-            // 
-            this.dateWorkCardEnd.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dateWorkCardEnd.BorderRadius = 0;
-            this.dateWorkCardEnd.ForeColor = System.Drawing.Color.White;
-            this.dateWorkCardEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateWorkCardEnd.FormatCustom = null;
-            this.dateWorkCardEnd.Location = new System.Drawing.Point(1874, 817);
-            this.dateWorkCardEnd.Margin = new System.Windows.Forms.Padding(76, 218, 76, 218);
-            this.dateWorkCardEnd.Name = "dateWorkCardEnd";
-            this.dateWorkCardEnd.Size = new System.Drawing.Size(939, 333);
-            this.dateWorkCardEnd.TabIndex = 11;
-            this.dateWorkCardEnd.Value = new System.DateTime(2022, 6, 10, 20, 27, 17, 836);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(643, 168);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 43);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "تاريخ الانتهاء:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(652, 113);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(146, 43);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "تاريخ البداية:";
-            // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.dateTimePicker6);
+            this.groupBox3.Controls.Add(this.dateTimePicker5);
             this.groupBox3.Controls.Add(this.txtPassportNumber);
             this.groupBox3.Controls.Add(this.label18);
             this.groupBox3.Controls.Add(this.passEndDate);
@@ -564,6 +536,81 @@
             this.passStartDate.Size = new System.Drawing.Size(635, 118);
             this.passStartDate.TabIndex = 36;
             this.passStartDate.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            // 
+            // btnInsertPassport
+            // 
+            this.btnInsertPassport.AllowToggling = false;
+            this.btnInsertPassport.AnimationSpeed = 200;
+            this.btnInsertPassport.AutoGenerateColors = false;
+            this.btnInsertPassport.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertPassport.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.btnInsertPassport.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInsertPassport.BackgroundImage")));
+            this.btnInsertPassport.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnInsertPassport.ButtonText = "إدراج";
+            this.btnInsertPassport.ButtonTextMarginLeft = 0;
+            this.btnInsertPassport.ColorContrastOnClick = 45;
+            this.btnInsertPassport.ColorContrastOnHover = 45;
+            this.btnInsertPassport.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.btnInsertPassport.CustomizableEdges = borderEdges8;
+            this.btnInsertPassport.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnInsertPassport.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnInsertPassport.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnInsertPassport.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnInsertPassport.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnInsertPassport.Font = new System.Drawing.Font("Noto Kufi Arabic", 10.8F);
+            this.btnInsertPassport.ForeColor = System.Drawing.Color.White;
+            this.btnInsertPassport.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertPassport.IconMarginLeft = 11;
+            this.btnInsertPassport.IconPadding = 10;
+            this.btnInsertPassport.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertPassport.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnInsertPassport.IdleBorderRadius = 3;
+            this.btnInsertPassport.IdleBorderThickness = 1;
+            this.btnInsertPassport.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.btnInsertPassport.IdleIconLeftImage = null;
+            this.btnInsertPassport.IdleIconRightImage = null;
+            this.btnInsertPassport.IndicateFocus = false;
+            this.btnInsertPassport.Location = new System.Drawing.Point(21, 178);
+            this.btnInsertPassport.Name = "btnInsertPassport";
+            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties15.BorderRadius = 3;
+            stateProperties15.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties15.BorderThickness = 1;
+            stateProperties15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties15.ForeColor = System.Drawing.Color.White;
+            stateProperties15.IconLeftImage = null;
+            stateProperties15.IconRightImage = null;
+            this.btnInsertPassport.onHoverState = stateProperties15;
+            stateProperties16.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties16.BorderRadius = 3;
+            stateProperties16.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties16.BorderThickness = 1;
+            stateProperties16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties16.ForeColor = System.Drawing.Color.White;
+            stateProperties16.IconLeftImage = null;
+            stateProperties16.IconRightImage = null;
+            this.btnInsertPassport.OnPressedState = stateProperties16;
+            this.btnInsertPassport.Size = new System.Drawing.Size(150, 33);
+            this.btnInsertPassport.TabIndex = 33;
+            this.btnInsertPassport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnInsertPassport.TextMarginLeft = 0;
+            this.btnInsertPassport.UseDefaultRadiusAndThickness = true;
+            this.btnInsertPassport.Click += new System.EventHandler(this.btnInsertPassport_Click);
+            // 
+            // picPassport
+            // 
+            this.picPassport.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picPassport.Image = global::WinFormsApp2.Properties.Resources.x_office_document_icon;
+            this.picPassport.Location = new System.Drawing.Point(21, 28);
+            this.picPassport.Name = "picPassport";
+            this.picPassport.Size = new System.Drawing.Size(150, 150);
+            this.picPassport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPassport.TabIndex = 29;
+            this.picPassport.TabStop = false;
             // 
             // datePassprtStart
             // 
@@ -655,81 +702,6 @@
             this.bunifuDragControl1.TargetControl = this;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // btnInsertIdentity
-            // 
-            this.btnInsertIdentity.AllowToggling = false;
-            this.btnInsertIdentity.AnimationSpeed = 200;
-            this.btnInsertIdentity.AutoGenerateColors = false;
-            this.btnInsertIdentity.BackColor = System.Drawing.Color.Transparent;
-            this.btnInsertIdentity.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.btnInsertIdentity.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInsertIdentity.BackgroundImage")));
-            this.btnInsertIdentity.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnInsertIdentity.ButtonText = "إدراج";
-            this.btnInsertIdentity.ButtonTextMarginLeft = 0;
-            this.btnInsertIdentity.ColorContrastOnClick = 45;
-            this.btnInsertIdentity.ColorContrastOnHover = 45;
-            this.btnInsertIdentity.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnInsertIdentity.CustomizableEdges = borderEdges1;
-            this.btnInsertIdentity.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnInsertIdentity.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnInsertIdentity.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnInsertIdentity.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnInsertIdentity.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnInsertIdentity.Font = new System.Drawing.Font("Noto Kufi Arabic", 10.8F);
-            this.btnInsertIdentity.ForeColor = System.Drawing.Color.White;
-            this.btnInsertIdentity.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertIdentity.IconMarginLeft = 11;
-            this.btnInsertIdentity.IconPadding = 10;
-            this.btnInsertIdentity.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertIdentity.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.btnInsertIdentity.IdleBorderRadius = 3;
-            this.btnInsertIdentity.IdleBorderThickness = 1;
-            this.btnInsertIdentity.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.btnInsertIdentity.IdleIconLeftImage = null;
-            this.btnInsertIdentity.IdleIconRightImage = null;
-            this.btnInsertIdentity.IndicateFocus = false;
-            this.btnInsertIdentity.Location = new System.Drawing.Point(21, 178);
-            this.btnInsertIdentity.Name = "btnInsertIdentity";
-            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties1.BorderRadius = 3;
-            stateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties1.BorderThickness = 1;
-            stateProperties1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties1.ForeColor = System.Drawing.Color.White;
-            stateProperties1.IconLeftImage = null;
-            stateProperties1.IconRightImage = null;
-            this.btnInsertIdentity.onHoverState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties2.BorderRadius = 3;
-            stateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties2.BorderThickness = 1;
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties2.ForeColor = System.Drawing.Color.White;
-            stateProperties2.IconLeftImage = null;
-            stateProperties2.IconRightImage = null;
-            this.btnInsertIdentity.OnPressedState = stateProperties2;
-            this.btnInsertIdentity.Size = new System.Drawing.Size(150, 33);
-            this.btnInsertIdentity.TabIndex = 33;
-            this.btnInsertIdentity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnInsertIdentity.TextMarginLeft = 0;
-            this.btnInsertIdentity.UseDefaultRadiusAndThickness = true;
-            this.btnInsertIdentity.Click += new System.EventHandler(this.btnInsertIdentity_Click);
-            // 
-            // picIdenty
-            // 
-            this.picIdenty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picIdenty.Image = global::WinFormsApp2.Properties.Resources.x_office_document_icon;
-            this.picIdenty.Location = new System.Drawing.Point(21, 28);
-            this.picIdenty.Name = "picIdenty";
-            this.picIdenty.Size = new System.Drawing.Size(150, 150);
-            this.picIdenty.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picIdenty.TabIndex = 29;
-            this.picIdenty.TabStop = false;
-            // 
             // bunifuButton2
             // 
             this.bunifuButton2.AllowToggling = false;
@@ -744,11 +716,11 @@
             this.bunifuButton2.ColorContrastOnClick = 45;
             this.bunifuButton2.ColorContrastOnHover = 45;
             this.bunifuButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.bunifuButton2.CustomizableEdges = borderEdges4;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.bunifuButton2.CustomizableEdges = borderEdges9;
             this.bunifuButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton2.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton2.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -769,24 +741,24 @@
             this.bunifuButton2.IndicateFocus = false;
             this.bunifuButton2.Location = new System.Drawing.Point(1217, 776);
             this.bunifuButton2.Name = "bunifuButton2";
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.BorderRadius = 3;
-            stateProperties7.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties7.BorderThickness = 1;
-            stateProperties7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.ForeColor = System.Drawing.Color.White;
-            stateProperties7.IconLeftImage = null;
-            stateProperties7.IconRightImage = null;
-            this.bunifuButton2.onHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties8.BorderRadius = 3;
-            stateProperties8.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties8.BorderThickness = 1;
-            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties8.ForeColor = System.Drawing.Color.White;
-            stateProperties8.IconLeftImage = null;
-            stateProperties8.IconRightImage = null;
-            this.bunifuButton2.OnPressedState = stateProperties8;
+            stateProperties17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties17.BorderRadius = 3;
+            stateProperties17.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties17.BorderThickness = 1;
+            stateProperties17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties17.ForeColor = System.Drawing.Color.White;
+            stateProperties17.IconLeftImage = null;
+            stateProperties17.IconRightImage = null;
+            this.bunifuButton2.onHoverState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties18.BorderRadius = 3;
+            stateProperties18.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties18.BorderThickness = 1;
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties18.ForeColor = System.Drawing.Color.White;
+            stateProperties18.IconLeftImage = null;
+            stateProperties18.IconRightImage = null;
+            this.bunifuButton2.OnPressedState = stateProperties18;
             this.bunifuButton2.Size = new System.Drawing.Size(171, 45);
             this.bunifuButton2.TabIndex = 39;
             this.bunifuButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -822,11 +794,11 @@
             this.bunifuButton1.ColorContrastOnClick = 45;
             this.bunifuButton1.ColorContrastOnHover = 45;
             this.bunifuButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.bunifuButton1.CustomizableEdges = borderEdges5;
+            borderEdges10.BottomLeft = true;
+            borderEdges10.BottomRight = true;
+            borderEdges10.TopLeft = true;
+            borderEdges10.TopRight = true;
+            this.bunifuButton1.CustomizableEdges = borderEdges10;
             this.bunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -847,180 +819,30 @@
             this.bunifuButton1.IndicateFocus = false;
             this.bunifuButton1.Location = new System.Drawing.Point(994, 776);
             this.bunifuButton1.Name = "bunifuButton1";
-            stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties9.BorderRadius = 3;
-            stateProperties9.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties9.BorderThickness = 1;
-            stateProperties9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties9.ForeColor = System.Drawing.Color.White;
-            stateProperties9.IconLeftImage = null;
-            stateProperties9.IconRightImage = null;
-            this.bunifuButton1.onHoverState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties10.BorderRadius = 3;
-            stateProperties10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties10.BorderThickness = 1;
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties10.ForeColor = System.Drawing.Color.White;
-            stateProperties10.IconLeftImage = null;
-            stateProperties10.IconRightImage = null;
-            this.bunifuButton1.OnPressedState = stateProperties10;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.BorderRadius = 3;
+            stateProperties19.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties19.BorderThickness = 1;
+            stateProperties19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.ForeColor = System.Drawing.Color.White;
+            stateProperties19.IconLeftImage = null;
+            stateProperties19.IconRightImage = null;
+            this.bunifuButton1.onHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties20.BorderRadius = 3;
+            stateProperties20.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties20.BorderThickness = 1;
+            stateProperties20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties20.ForeColor = System.Drawing.Color.White;
+            stateProperties20.IconLeftImage = null;
+            stateProperties20.IconRightImage = null;
+            this.bunifuButton1.OnPressedState = stateProperties20;
             this.bunifuButton1.Size = new System.Drawing.Size(217, 45);
             this.bunifuButton1.TabIndex = 37;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextMarginLeft = 0;
             this.bunifuButton1.UseDefaultRadiusAndThickness = true;
             this.bunifuButton1.Click += new System.EventHandler(this.bunifuButton1_Click_1);
-            // 
-            // btnInsertPassport
-            // 
-            this.btnInsertPassport.AllowToggling = false;
-            this.btnInsertPassport.AnimationSpeed = 200;
-            this.btnInsertPassport.AutoGenerateColors = false;
-            this.btnInsertPassport.BackColor = System.Drawing.Color.Transparent;
-            this.btnInsertPassport.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.btnInsertPassport.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInsertPassport.BackgroundImage")));
-            this.btnInsertPassport.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnInsertPassport.ButtonText = "إدراج";
-            this.btnInsertPassport.ButtonTextMarginLeft = 0;
-            this.btnInsertPassport.ColorContrastOnClick = 45;
-            this.btnInsertPassport.ColorContrastOnHover = 45;
-            this.btnInsertPassport.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnInsertPassport.CustomizableEdges = borderEdges3;
-            this.btnInsertPassport.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnInsertPassport.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnInsertPassport.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnInsertPassport.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnInsertPassport.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnInsertPassport.Font = new System.Drawing.Font("Noto Kufi Arabic", 10.8F);
-            this.btnInsertPassport.ForeColor = System.Drawing.Color.White;
-            this.btnInsertPassport.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertPassport.IconMarginLeft = 11;
-            this.btnInsertPassport.IconPadding = 10;
-            this.btnInsertPassport.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertPassport.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.btnInsertPassport.IdleBorderRadius = 3;
-            this.btnInsertPassport.IdleBorderThickness = 1;
-            this.btnInsertPassport.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.btnInsertPassport.IdleIconLeftImage = null;
-            this.btnInsertPassport.IdleIconRightImage = null;
-            this.btnInsertPassport.IndicateFocus = false;
-            this.btnInsertPassport.Location = new System.Drawing.Point(21, 178);
-            this.btnInsertPassport.Name = "btnInsertPassport";
-            stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties5.BorderRadius = 3;
-            stateProperties5.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties5.BorderThickness = 1;
-            stateProperties5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties5.ForeColor = System.Drawing.Color.White;
-            stateProperties5.IconLeftImage = null;
-            stateProperties5.IconRightImage = null;
-            this.btnInsertPassport.onHoverState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties6.BorderRadius = 3;
-            stateProperties6.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties6.BorderThickness = 1;
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties6.ForeColor = System.Drawing.Color.White;
-            stateProperties6.IconLeftImage = null;
-            stateProperties6.IconRightImage = null;
-            this.btnInsertPassport.OnPressedState = stateProperties6;
-            this.btnInsertPassport.Size = new System.Drawing.Size(150, 33);
-            this.btnInsertPassport.TabIndex = 33;
-            this.btnInsertPassport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnInsertPassport.TextMarginLeft = 0;
-            this.btnInsertPassport.UseDefaultRadiusAndThickness = true;
-            this.btnInsertPassport.Click += new System.EventHandler(this.btnInsertPassport_Click);
-            // 
-            // picPassport
-            // 
-            this.picPassport.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picPassport.Image = global::WinFormsApp2.Properties.Resources.x_office_document_icon;
-            this.picPassport.Location = new System.Drawing.Point(21, 28);
-            this.picPassport.Name = "picPassport";
-            this.picPassport.Size = new System.Drawing.Size(150, 150);
-            this.picPassport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPassport.TabIndex = 29;
-            this.picPassport.TabStop = false;
-            // 
-            // btnInsertWorkCard
-            // 
-            this.btnInsertWorkCard.AllowToggling = false;
-            this.btnInsertWorkCard.AnimationSpeed = 200;
-            this.btnInsertWorkCard.AutoGenerateColors = false;
-            this.btnInsertWorkCard.BackColor = System.Drawing.Color.Transparent;
-            this.btnInsertWorkCard.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.btnInsertWorkCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInsertWorkCard.BackgroundImage")));
-            this.btnInsertWorkCard.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnInsertWorkCard.ButtonText = "إدراج";
-            this.btnInsertWorkCard.ButtonTextMarginLeft = 0;
-            this.btnInsertWorkCard.ColorContrastOnClick = 45;
-            this.btnInsertWorkCard.ColorContrastOnHover = 45;
-            this.btnInsertWorkCard.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnInsertWorkCard.CustomizableEdges = borderEdges2;
-            this.btnInsertWorkCard.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnInsertWorkCard.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnInsertWorkCard.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnInsertWorkCard.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnInsertWorkCard.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnInsertWorkCard.Font = new System.Drawing.Font("Noto Kufi Arabic", 10.8F);
-            this.btnInsertWorkCard.ForeColor = System.Drawing.Color.White;
-            this.btnInsertWorkCard.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertWorkCard.IconMarginLeft = 11;
-            this.btnInsertWorkCard.IconPadding = 10;
-            this.btnInsertWorkCard.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertWorkCard.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.btnInsertWorkCard.IdleBorderRadius = 3;
-            this.btnInsertWorkCard.IdleBorderThickness = 1;
-            this.btnInsertWorkCard.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.btnInsertWorkCard.IdleIconLeftImage = null;
-            this.btnInsertWorkCard.IdleIconRightImage = null;
-            this.btnInsertWorkCard.IndicateFocus = false;
-            this.btnInsertWorkCard.Location = new System.Drawing.Point(21, 178);
-            this.btnInsertWorkCard.Name = "btnInsertWorkCard";
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.BorderRadius = 3;
-            stateProperties3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties3.BorderThickness = 1;
-            stateProperties3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.ForeColor = System.Drawing.Color.White;
-            stateProperties3.IconLeftImage = null;
-            stateProperties3.IconRightImage = null;
-            this.btnInsertWorkCard.onHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties4.BorderRadius = 3;
-            stateProperties4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties4.BorderThickness = 1;
-            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties4.ForeColor = System.Drawing.Color.White;
-            stateProperties4.IconLeftImage = null;
-            stateProperties4.IconRightImage = null;
-            this.btnInsertWorkCard.OnPressedState = stateProperties4;
-            this.btnInsertWorkCard.Size = new System.Drawing.Size(150, 33);
-            this.btnInsertWorkCard.TabIndex = 33;
-            this.btnInsertWorkCard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnInsertWorkCard.TextMarginLeft = 0;
-            this.btnInsertWorkCard.UseDefaultRadiusAndThickness = true;
-            this.btnInsertWorkCard.Click += new System.EventHandler(this.btnInsertWorkCard_Click);
-            // 
-            // picWordCard
-            // 
-            this.picWordCard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picWordCard.Image = global::WinFormsApp2.Properties.Resources.x_office_document_icon;
-            this.picWordCard.Location = new System.Drawing.Point(21, 28);
-            this.picWordCard.Name = "picWordCard";
-            this.picWordCard.Size = new System.Drawing.Size(150, 150);
-            this.picWordCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picWordCard.TabIndex = 29;
-            this.picWordCard.TabStop = false;
             // 
             // btnInsertEmpImg
             // 
@@ -1036,11 +858,11 @@
             this.btnInsertEmpImg.ColorContrastOnClick = 45;
             this.btnInsertEmpImg.ColorContrastOnHover = 45;
             this.btnInsertEmpImg.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.btnInsertEmpImg.CustomizableEdges = borderEdges6;
+            borderEdges12.BottomLeft = true;
+            borderEdges12.BottomRight = true;
+            borderEdges12.TopLeft = true;
+            borderEdges12.TopRight = true;
+            this.btnInsertEmpImg.CustomizableEdges = borderEdges12;
             this.btnInsertEmpImg.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnInsertEmpImg.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnInsertEmpImg.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -1061,24 +883,24 @@
             this.btnInsertEmpImg.IndicateFocus = false;
             this.btnInsertEmpImg.Location = new System.Drawing.Point(259, 776);
             this.btnInsertEmpImg.Name = "btnInsertEmpImg";
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.BorderRadius = 3;
-            stateProperties11.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties11.BorderThickness = 1;
-            stateProperties11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.ForeColor = System.Drawing.Color.White;
-            stateProperties11.IconLeftImage = null;
-            stateProperties11.IconRightImage = null;
-            this.btnInsertEmpImg.onHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties12.BorderRadius = 3;
-            stateProperties12.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            stateProperties12.BorderThickness = 1;
-            stateProperties12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            stateProperties12.ForeColor = System.Drawing.Color.White;
-            stateProperties12.IconLeftImage = null;
-            stateProperties12.IconRightImage = null;
-            this.btnInsertEmpImg.OnPressedState = stateProperties12;
+            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties23.BorderRadius = 3;
+            stateProperties23.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties23.BorderThickness = 1;
+            stateProperties23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties23.ForeColor = System.Drawing.Color.White;
+            stateProperties23.IconLeftImage = null;
+            stateProperties23.IconRightImage = null;
+            this.btnInsertEmpImg.onHoverState = stateProperties23;
+            stateProperties24.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties24.BorderRadius = 3;
+            stateProperties24.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties24.BorderThickness = 1;
+            stateProperties24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties24.ForeColor = System.Drawing.Color.White;
+            stateProperties24.IconLeftImage = null;
+            stateProperties24.IconRightImage = null;
+            this.btnInsertEmpImg.OnPressedState = stateProperties24;
             this.btnInsertEmpImg.Size = new System.Drawing.Size(300, 45);
             this.btnInsertEmpImg.TabIndex = 6;
             this.btnInsertEmpImg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1096,6 +918,250 @@
             this.picEmpImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picEmpImage.TabIndex = 28;
             this.picEmpImage.TabStop = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(652, 113);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(146, 43);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "تاريخ البداية:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(643, 168);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(155, 43);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "تاريخ الانتهاء:";
+            // 
+            // dateWorkCardEnd
+            // 
+            this.dateWorkCardEnd.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateWorkCardEnd.BorderRadius = 0;
+            this.dateWorkCardEnd.ForeColor = System.Drawing.Color.White;
+            this.dateWorkCardEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateWorkCardEnd.FormatCustom = null;
+            this.dateWorkCardEnd.Location = new System.Drawing.Point(1874, 817);
+            this.dateWorkCardEnd.Margin = new System.Windows.Forms.Padding(76, 218, 76, 218);
+            this.dateWorkCardEnd.Name = "dateWorkCardEnd";
+            this.dateWorkCardEnd.Size = new System.Drawing.Size(939, 333);
+            this.dateWorkCardEnd.TabIndex = 11;
+            this.dateWorkCardEnd.Value = new System.DateTime(2022, 6, 10, 20, 27, 17, 836);
+            // 
+            // dateWorkCardStart
+            // 
+            this.dateWorkCardStart.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateWorkCardStart.BorderRadius = 0;
+            this.dateWorkCardStart.ForeColor = System.Drawing.Color.White;
+            this.dateWorkCardStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateWorkCardStart.FormatCustom = null;
+            this.dateWorkCardStart.Location = new System.Drawing.Point(1874, 419);
+            this.dateWorkCardStart.Margin = new System.Windows.Forms.Padding(162, 586, 162, 586);
+            this.dateWorkCardStart.Name = "dateWorkCardStart";
+            this.dateWorkCardStart.Size = new System.Drawing.Size(939, 333);
+            this.dateWorkCardStart.TabIndex = 12;
+            this.dateWorkCardStart.Value = new System.DateTime(2022, 6, 10, 20, 27, 17, 836);
+            // 
+            // picWordCard
+            // 
+            this.picWordCard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picWordCard.Image = global::WinFormsApp2.Properties.Resources.x_office_document_icon;
+            this.picWordCard.Location = new System.Drawing.Point(21, 28);
+            this.picWordCard.Name = "picWordCard";
+            this.picWordCard.Size = new System.Drawing.Size(150, 150);
+            this.picWordCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picWordCard.TabIndex = 29;
+            this.picWordCard.TabStop = false;
+            // 
+            // btnInsertWorkCard
+            // 
+            this.btnInsertWorkCard.AllowToggling = false;
+            this.btnInsertWorkCard.AnimationSpeed = 200;
+            this.btnInsertWorkCard.AutoGenerateColors = false;
+            this.btnInsertWorkCard.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertWorkCard.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.btnInsertWorkCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInsertWorkCard.BackgroundImage")));
+            this.btnInsertWorkCard.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnInsertWorkCard.ButtonText = "إدراج";
+            this.btnInsertWorkCard.ButtonTextMarginLeft = 0;
+            this.btnInsertWorkCard.ColorContrastOnClick = 45;
+            this.btnInsertWorkCard.ColorContrastOnHover = 45;
+            this.btnInsertWorkCard.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges11.BottomLeft = true;
+            borderEdges11.BottomRight = true;
+            borderEdges11.TopLeft = true;
+            borderEdges11.TopRight = true;
+            this.btnInsertWorkCard.CustomizableEdges = borderEdges11;
+            this.btnInsertWorkCard.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnInsertWorkCard.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnInsertWorkCard.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnInsertWorkCard.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnInsertWorkCard.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnInsertWorkCard.Font = new System.Drawing.Font("Noto Kufi Arabic", 10.8F);
+            this.btnInsertWorkCard.ForeColor = System.Drawing.Color.White;
+            this.btnInsertWorkCard.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertWorkCard.IconMarginLeft = 11;
+            this.btnInsertWorkCard.IconPadding = 10;
+            this.btnInsertWorkCard.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertWorkCard.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnInsertWorkCard.IdleBorderRadius = 3;
+            this.btnInsertWorkCard.IdleBorderThickness = 1;
+            this.btnInsertWorkCard.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.btnInsertWorkCard.IdleIconLeftImage = null;
+            this.btnInsertWorkCard.IdleIconRightImage = null;
+            this.btnInsertWorkCard.IndicateFocus = false;
+            this.btnInsertWorkCard.Location = new System.Drawing.Point(21, 178);
+            this.btnInsertWorkCard.Name = "btnInsertWorkCard";
+            stateProperties21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties21.BorderRadius = 3;
+            stateProperties21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties21.BorderThickness = 1;
+            stateProperties21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties21.ForeColor = System.Drawing.Color.White;
+            stateProperties21.IconLeftImage = null;
+            stateProperties21.IconRightImage = null;
+            this.btnInsertWorkCard.onHoverState = stateProperties21;
+            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties22.BorderRadius = 3;
+            stateProperties22.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            stateProperties22.BorderThickness = 1;
+            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            stateProperties22.ForeColor = System.Drawing.Color.White;
+            stateProperties22.IconLeftImage = null;
+            stateProperties22.IconRightImage = null;
+            this.btnInsertWorkCard.OnPressedState = stateProperties22;
+            this.btnInsertWorkCard.Size = new System.Drawing.Size(150, 33);
+            this.btnInsertWorkCard.TabIndex = 33;
+            this.btnInsertWorkCard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnInsertWorkCard.TextMarginLeft = 0;
+            this.btnInsertWorkCard.UseDefaultRadiusAndThickness = true;
+            this.btnInsertWorkCard.Click += new System.EventHandler(this.btnInsertWorkCard_Click);
+            // 
+            // dateWorkStart
+            // 
+            this.dateWorkStart.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateWorkStart.BorderRadius = 0;
+            this.dateWorkStart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateWorkStart.ForeColor = System.Drawing.Color.White;
+            this.dateWorkStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateWorkStart.FormatCustom = null;
+            this.dateWorkStart.Location = new System.Drawing.Point(708, 301);
+            this.dateWorkStart.Margin = new System.Windows.Forms.Padding(36, 81, 36, 81);
+            this.dateWorkStart.Name = "dateWorkStart";
+            this.dateWorkStart.Size = new System.Drawing.Size(633, 115);
+            this.dateWorkStart.TabIndex = 36;
+            this.dateWorkStart.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            // 
+            // dateWorkEnd
+            // 
+            this.dateWorkEnd.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dateWorkEnd.BorderRadius = 0;
+            this.dateWorkEnd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateWorkEnd.ForeColor = System.Drawing.Color.White;
+            this.dateWorkEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateWorkEnd.FormatCustom = null;
+            this.dateWorkEnd.Location = new System.Drawing.Point(708, 449);
+            this.dateWorkEnd.Margin = new System.Windows.Forms.Padding(76, 218, 76, 218);
+            this.dateWorkEnd.Name = "dateWorkEnd";
+            this.dateWorkEnd.Size = new System.Drawing.Size(633, 115);
+            this.dateWorkEnd.TabIndex = 37;
+            this.dateWorkEnd.Value = new System.DateTime(2022, 6, 11, 14, 21, 17, 664);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(654, 52);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(144, 43);
+            this.label17.TabIndex = 40;
+            this.label17.Text = "رقم التصريح:";
+            // 
+            // txtWorkCardNumber
+            // 
+            this.txtWorkCardNumber.BorderColor = System.Drawing.Color.SeaGreen;
+            this.txtWorkCardNumber.Font = new System.Drawing.Font("Noto Kufi Arabic", 11.8F);
+            this.txtWorkCardNumber.Location = new System.Drawing.Point(332, 50);
+            this.txtWorkCardNumber.Name = "txtWorkCardNumber";
+            this.txtWorkCardNumber.Size = new System.Drawing.Size(300, 45);
+            this.txtWorkCardNumber.TabIndex = 39;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dateTimePicker4);
+            this.groupBox2.Controls.Add(this.dateTimePicker3);
+            this.groupBox2.Controls.Add(this.txtWorkCardNumber);
+            this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Controls.Add(this.dateWorkEnd);
+            this.groupBox2.Controls.Add(this.dateWorkStart);
+            this.groupBox2.Controls.Add(this.btnInsertWorkCard);
+            this.groupBox2.Controls.Add(this.picWordCard);
+            this.groupBox2.Controls.Add(this.dateWorkCardStart);
+            this.groupBox2.Controls.Add(this.dateWorkCardEnd);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Location = new System.Drawing.Point(565, 287);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(823, 217);
+            this.groupBox2.TabIndex = 33;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "تصريح العمل";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(333, 113);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(300, 34);
+            this.dateTimePicker1.TabIndex = 39;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(332, 168);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(300, 34);
+            this.dateTimePicker2.TabIndex = 40;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker3.Location = new System.Drawing.Point(333, 122);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(300, 34);
+            this.dateTimePicker3.TabIndex = 41;
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker4.Location = new System.Drawing.Point(332, 169);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(300, 34);
+            this.dateTimePicker4.TabIndex = 42;
+            // 
+            // dateTimePicker5
+            // 
+            this.dateTimePicker5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker5.Location = new System.Drawing.Point(333, 112);
+            this.dateTimePicker5.Name = "dateTimePicker5";
+            this.dateTimePicker5.Size = new System.Drawing.Size(300, 34);
+            this.dateTimePicker5.TabIndex = 41;
+            // 
+            // dateTimePicker6
+            // 
+            this.dateTimePicker6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker6.Location = new System.Drawing.Point(337, 167);
+            this.dateTimePicker6.Name = "dateTimePicker6";
+            this.dateTimePicker6.Size = new System.Drawing.Size(300, 34);
+            this.dateTimePicker6.TabIndex = 42;
             // 
             // frmAddEmp
             // 
@@ -1139,15 +1205,15 @@
             this.Load += new System.EventHandler(this.frmAddEmp_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picIdenty)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picIdenty)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnDarlMode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPassport)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picWordCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDarlMode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEmpImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWordCard)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1178,13 +1244,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnInsertIdentity;
         private System.Windows.Forms.PictureBox picIdenty;
         private Bunifu.Framework.UI.BunifuDatepicker dateStartIdentitiy;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnInsertWorkCard;
-        private System.Windows.Forms.PictureBox picWordCard;
-        private Bunifu.Framework.UI.BunifuDatepicker dateWorkCardStart;
-        private Bunifu.Framework.UI.BunifuDatepicker dateWorkCardEnd;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.GroupBox groupBox3;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnInsertPassport;
         private System.Windows.Forms.PictureBox picPassport;
@@ -1195,8 +1254,6 @@
         private Bunifu.Framework.BunifuCustomTextbox txtEmpCode;
         private System.Windows.Forms.Label label15;
         private Bunifu.Framework.UI.BunifuDatepicker dateIdentityEnd;
-        private Bunifu.Framework.UI.BunifuDatepicker dateWorkEnd;
-        private Bunifu.Framework.UI.BunifuDatepicker dateWorkStart;
         private Bunifu.Framework.UI.BunifuDatepicker passEndDate;
         private Bunifu.Framework.UI.BunifuDatepicker passStartDate;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
@@ -1205,12 +1262,27 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
         private Bunifu.Framework.BunifuCustomTextbox txtIdentityNumber;
         private System.Windows.Forms.Label label16;
-        private Bunifu.Framework.BunifuCustomTextbox txtWorkCardNumber;
-        private System.Windows.Forms.Label label17;
         private Bunifu.Framework.BunifuCustomTextbox txtPassportNumber;
         private System.Windows.Forms.Label label18;
         private Bunifu.Framework.BunifuCustomTextbox txtSalary;
         private System.Windows.Forms.Label label19;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private Bunifu.Framework.BunifuCustomTextbox txtWorkCardNumber;
+        private System.Windows.Forms.Label label17;
+        private Bunifu.Framework.UI.BunifuDatepicker dateWorkEnd;
+        private Bunifu.Framework.UI.BunifuDatepicker dateWorkStart;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnInsertWorkCard;
+        private System.Windows.Forms.PictureBox picWordCard;
+        private Bunifu.Framework.UI.BunifuDatepicker dateWorkCardStart;
+        private Bunifu.Framework.UI.BunifuDatepicker dateWorkCardEnd;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker6;
+        private System.Windows.Forms.DateTimePicker dateTimePicker5;
+        private System.Windows.Forms.DateTimePicker dateTimePicker4;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
     }
 }

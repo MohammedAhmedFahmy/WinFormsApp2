@@ -30,8 +30,8 @@ namespace WinFormsApp2.PeresentationLayer.Emp
             {
                 this.BackColor = Color.FromArgb(17, 45, 78);
                 btnDarlMode.Image = Resources.lightMoon;
-                bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
-                bunifuDataGridView1.BackgroundColor = Color.FromArgb(50, 56, 62);
+                bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Navy;
+                bunifuDataGridView1.BackgroundColor = Color.FromArgb(17, 45, 78);
                 foreach (Control x in this.Controls)
                 {
                     if (x is Label)

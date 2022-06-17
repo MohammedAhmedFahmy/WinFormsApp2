@@ -93,7 +93,8 @@ namespace WinFormsApp2.PeresentationLayer.Emp
         {
             initForm();
             darkMode();
-           
+
+
         }
 
         private void comboNationality_DrawItem(object sender, DrawItemEventArgs e)
@@ -288,20 +289,20 @@ namespace WinFormsApp2.PeresentationLayer.Emp
                 cmd.Parameters.AddWithValue("@imgEmp", byteImageEmp);
                 int n1 = cmd.ExecuteNonQuery();
 
-                string sqlQueryImageIdentity = ("insert into Images values('imgImentityPicture','" + dateIdentityStart.Value + "','" + dateIdentityEnd.Value + "' ,@imgIdentity," + txtEmpCode.Text + ")");
+                string sqlQueryImageIdentity = ("insert into Images values('imgImentityPicture','" + dateTimePicker1.Value + "','" + dateTimePicker2.Value + "' ,@imgIdentity," + txtEmpCode.Text + ")");
                 SqlCommand cmdIdentity;
                 cmdIdentity = new SqlCommand(sqlQueryImageIdentity, sqlconnection);
                 cmdIdentity.Parameters.AddWithValue("@imgIdentity", byteImageIdentity);
                 int n2 = cmdIdentity.ExecuteNonQuery();
 
 
-                string sqlQueryImageWorkCard = ("insert into Images values('imgWorkCardPicture','" + dateWorkStart.Value + "','" + dateWorkEnd.Value + "' ,@imgWorkCardImg," + txtEmpCode.Text + ")");
+                string sqlQueryImageWorkCard = ("insert into Images values('imgWorkCardPicture','" + dateTimePicker3.Value + "','" + dateTimePicker4.Value + "' ,@imgWorkCardImg," + txtEmpCode.Text + ")");
                 SqlCommand cmdWordCard;
                 cmdWordCard = new SqlCommand(sqlQueryImageWorkCard, sqlconnection);
                 cmdWordCard.Parameters.AddWithValue("@imgWorkCardImg", byteImageWorkCard);
                 int n3 = cmdWordCard.ExecuteNonQuery();
 
-                string sqlQueryImagePassport = ("insert into Images values('imgWorkPassport','" + passStartDate.Value + "','" + passEndDate.Value + "' ,@passImg," + txtEmpCode.Text + ")");
+                string sqlQueryImagePassport = ("insert into Images values('imgWorkPassport','" + dateTimePicker5.Value + "','" + dateTimePicker6.Value + "' ,@passImg," + txtEmpCode.Text + ")");
                 SqlCommand cmdPassport;
                 cmdPassport = new SqlCommand(sqlQueryImagePassport, sqlconnection);
                 cmdPassport.Parameters.AddWithValue("@passImg", byteImagPassport);

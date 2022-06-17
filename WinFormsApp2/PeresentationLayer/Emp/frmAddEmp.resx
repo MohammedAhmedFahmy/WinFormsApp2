@@ -128,16 +128,6 @@
         k9Xv32aebx+uR4fwV3tUp7f5kqzM2hvjB8C14MYx5GAqAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnInsertWorkCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJYAAAAhCAYAAAA7zlIvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADuSURBVHhe7dyxUcNAGITRa8Q2pVABrUkMZRCTUgoNOKKB
-        ExazoQLsWbK3My/R/OGXnobZv+2ybE+Xdb6f122Dh73Oj72lZDXGeZmfh4dwp9Myv5LVLayDA3hUshIW
-        XclKWHQlK2HRlayERVeyEhZdyUpYdCUrYdGVrIRFV7ISFl3JSlh0JSth0ZWshEVXshIWXclKWHQlK2HR
-        layERVeyEhZdyUpYdCUrYdGVrIRFV7ISFl3JSlh0JSth0ZWshEVXshIWXclKWHQlqzH29/ZHB3Cv0zq/
-        k9Xv32aebx+uR4fwV3tUp7f5kqzM2hvjB8C14MYx5GAqAAAAAElFTkSuQmCC
-</value>
-  </data>
   <data name="btnInsertPassport.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJYAAAAhCAYAAAA7zlIvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -174,6 +164,16 @@
         EhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQx
         kUFLEhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQxkUFLEhMZtCQxkUFLEhtj2ebl6AF43HKe
         X0lsjHXbn2+H69Ej8HP3wJa3+ZLEzKy3Mb4BWnh+kSorOOMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnInsertWorkCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJYAAAAhCAYAAAA7zlIvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADuSURBVHhe7dyxUcNAGITRa8Q2pVABrUkMZRCTUgoNOKKB
+        ExazoQLsWbK3My/R/OGXnobZv+2ybE+Xdb6f122Dh73Oj72lZDXGeZmfh4dwp9Myv5LVLayDA3hUshIW
+        XclKWHQlK2HRlayERVeyEhZdyUpYdCUrYdGVrIRFV7ISFl3JSlh0JSth0ZWshEVXshIWXclKWHQlK2HR
+        layERVeyEhZdyUpYdCUrYdGVrIRFV7ISFl3JSlh0JSth0ZWshEVXshIWXclKWHQlqzH29/ZHB3Cv0zq/
+        k9Xv32aebx+uR4fwV3tUp7f5kqzM2hvjB8C14MYx5GAqAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btnInsertEmpImg.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
